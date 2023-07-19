@@ -11,11 +11,11 @@ int main() {
       // 格式错误
       std::cin.clear();
       std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-      std::cout << "data format error, please try again" << std::endl;
+      std::cout << "data format error, please try again." << std::endl;
       continue;
     }
     std::cout << i << std::endl; 
   }
-  std::cout << "process" << std::endl;
+  std::cout << "process complete." << std::endl;
   return 0;
 }
